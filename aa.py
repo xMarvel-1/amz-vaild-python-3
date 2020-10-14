@@ -2,8 +2,14 @@ import requests
 from colorama import Fore, Back, init
 from datetime import datetime
 import subprocess
+import os
 
 
+os.mkdir('result')
+f = open('result/live.txt','w')
+a = input('')
+f.write('answer:'+str(a))
+f.close()
 
 time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
