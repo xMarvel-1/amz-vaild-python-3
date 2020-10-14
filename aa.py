@@ -5,7 +5,6 @@ import subprocess
 import os
 
 
-os.mkdir('result')
 f = open('result/live.txt','w')
 a = input('')
 f.write('answer:'+str(a))
